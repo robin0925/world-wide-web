@@ -28,23 +28,23 @@
 }
 
 #footer {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .myheading {
   font-family: merriweather;
-  font-size: 50px;
+  font-size: 65px;
   font-weight: bold;
 }
 
 .mytextheading {
   font-family: merriweather;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
 }
 .mytext {
   font-family: roboto Slab;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 2em;
 }
