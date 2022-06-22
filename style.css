@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+
+#hello {
+  background-image: url(./images/hello.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px 0;
+}
+
+#second-section {
+  padding: 100px 0;
+  background-image: url(./images/stars.jpg);
+  background-color: #012;
+  background-blend-mode: overlay;
+}
+
+#myAccordion {
+  padding: 100px 0 !important;
+  background-image: url(./images/world.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f7fdfd !important;
+  background-attachment: fixed;
+}
+
+#footer {
+  padding: 50px 0;
+}
+
+.myheading {
+  font-family: merriweather;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.mytextheading {
+  font-family: merriweather;
+  font-size: 20px;
+  font-weight: 600;
+}
+.mytext {
+  font-family: roboto Slab;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2em;
+}
+
+.mylinks {
+  color: darkgoldenrod;
+}
+
+/* Background Video start */
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("./images/web.mp4") black no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
+/* Background Video end */
+
+#hypertext {
+  padding: 70px 0;
+  background-color: #d8dce8 !important;
+}
