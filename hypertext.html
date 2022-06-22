@@ -14,9 +14,9 @@
   <body>
     <section class="bg-light shadow-lg">
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand mytextheading" href="index.html">RP</a>
+        <nav class="navbar navbar-expand-lg justify-content-between">
+          <div>
+            <a href="index.html" class="navbar-brand mytextheading">RP</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -28,46 +28,32 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active mytext" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link mytext" href="#">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    WWW
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a
-                        class="dropdown-item mytext"
-                        href="Paje_B12Exercise1A.html"
-                        >Word Wide Web</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item mytext"
-                        href="Paje_B12Exercise1B.html"
-                        >Hyper Text</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link mytext fw-bold"
+                  >World Wide Web</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="hypertext.html" class="nav-link mytext fw-bold"
+                  >Hypertext</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
           </div>
         </nav>
       </div>
